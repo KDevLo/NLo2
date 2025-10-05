@@ -468,6 +468,19 @@ nav ul {
     margin-bottom: 20px;
 }
 
+.creation-description p {
+    text-align: justify;
+    column-gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .creation-description p {
+        column-count: 2;
+    }
+}
+
 .audio-player {
     width: 100%;
     margin: 20px 0;
